@@ -176,6 +176,7 @@ class WireguardPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
                                         .parseAllowedIPs(params.tunnel.peerAllowedIp)
                                         .parsePublicKey(params.tunnel.peerPublicKey)
                                         .parseEndpoint(params.tunnel.peerEndpoint)
+                                        .parsePreSharedKey(params.tunnel.preSharedKey)
                                         .build()
                         )
                         .build()
