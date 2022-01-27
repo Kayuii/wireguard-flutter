@@ -8,7 +8,7 @@ class Tunnel {
   final String peerAllowedIp;
   final String peerPublicKey;
   final String peerEndpoint;
-  final String preSharedKey
+  final String preSharedKey;
 
   Tunnel({
     required this.name,
