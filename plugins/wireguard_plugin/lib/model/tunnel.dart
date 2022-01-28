@@ -1,6 +1,7 @@
 class Tunnel {
   final String name;
   final String flag;
+  final Int status;
   final String address;
   final String listenPort;
   final String dnsServer;
@@ -13,6 +14,7 @@ class Tunnel {
   Tunnel({
     required this.name,
     required this.flag,
+    required this.status,
     required this.address,
     required this.listenPort,
     required this.dnsServer,
@@ -26,6 +28,7 @@ class Tunnel {
   Map<String, dynamic> toJson() => {
         'name': name,
         'flag': flag,
+        'status': status,
         'address': address,
         'listenPort': listenPort,
         'dnsServer': dnsServer,
