@@ -1,15 +1,15 @@
 class Tunnel {
-  final String name;
-  final String flag;
-  final int status;
-  final String address;
-  final String listenPort;
-  final String dnsServer;
-  final String privateKey;
-  final String peerAllowedIp;
-  final String peerPublicKey;
-  final String peerEndpoint;
-  final String preSharedKey;
+  final String? name;
+  final String? flag;
+  final int? status;
+  final String? address;
+  final String? listenPort;
+  final String? dnsServer;
+  final String? privateKey;
+  final String? peerAllowedIp;
+  final String? peerPublicKey;
+  final String? peerEndpoint;
+  final String? preSharedKey;
 
   Tunnel({
     required this.name,
