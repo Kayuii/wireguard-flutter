@@ -28,7 +28,7 @@ class Tunnel {
   Map<String, dynamic> toJson() => {
         'name': name,
         'flag': flag,
-        'status': status,
+        'status': status.toString(),
         'address': address,
         'listenPort': listenPort,
         'dnsServer': dnsServer,
