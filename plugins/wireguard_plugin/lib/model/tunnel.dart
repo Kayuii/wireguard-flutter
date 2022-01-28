@@ -1,7 +1,7 @@
 class Tunnel {
   final String name;
   final String flag;
-  final Int status;
+  final int status;
   final String address;
   final String listenPort;
   final String dnsServer;
