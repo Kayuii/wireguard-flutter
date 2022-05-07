@@ -8,5 +8,6 @@ class TunnelData(
         val privateKey: String,
         val peerAllowedIp: String,
         val peerPublicKey: String,
-        val peerEndpoint: String
+        val peerEndpoint: String,
+        val preSharedKey: String
 )
